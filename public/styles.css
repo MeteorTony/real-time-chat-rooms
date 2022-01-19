@@ -32,3 +32,30 @@ body {
 #message-input {
   flex-grow: 1;
 }
+
+#homepage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#room-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 20vw;
+}
+
+#room-form{
+  margin-top: 10vh;
+}
+
+.room{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  justify-content: space-around;
+}
